@@ -1,7 +1,14 @@
 a=int(input("enter a number"))
-if a>0:
-    print("positive")
-elif a<0:
-    print("negative")
+b=int(input("enter second number"))
+print("+  -  /  *")
+choice=(input("enter your choice :"))
+if choice=="+":
+    print(a+b)
+elif choice=="-":
+    print(a-b)
+elif choice=="/":
+    print(a/b)
+elif choice=="*":
+    print(a*b)
 else:
-    print("zero")
+    print("invalid choice")
