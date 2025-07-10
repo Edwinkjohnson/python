@@ -1,14 +1,4 @@
-a=int(input("enter a number"))
-b=int(input("enter second number"))
-print("+  -  /  *")
-choice=(input("enter your choice :"))
-if choice=="+":
-    print(a+b)
-elif choice=="-":
-    print(a-b)
-elif choice=="/":
-    print(a/b)
-elif choice=="*":
-    print(a*b)
-else:
-    print("invalid choice")
+a = (input("Enter your name: "))
+b = (input("Enter your age: "))
+c = (input("Enter your city: "))
+print("Hello", a + ", your age is", b + " and you live in", c + ".")
